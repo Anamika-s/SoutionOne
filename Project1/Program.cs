@@ -29,8 +29,11 @@ namespace Project1   //
             Console.WriteLine(x+y);
             Console.WriteLine("Sum of " + x + " and " + y + " is " + (x+y));
             Console.WriteLine("Sum of {0} and {1} is {2}", x,y ,(x+y));
-            Console.WriteLine($"Sum of {x} and {y} is {x+ y}"); 
-
+            Console.WriteLine($"Sum of {x} and {y} is {x+ y}");
+            Console.WriteLine($"Diference of {x} and {y} is {x-y}");
+            Console.WriteLine($"Product of {x} and {y} is {x*y}");
+            Console.WriteLine($"Remainder of {x} and {y} is {x%y}");
+            Console.WriteLine($"Quotient of {x} and {y} is {x / y}");
             //Console.WriteLine("Hello, World!");
             // comments are statements ignored by compiler
             // Ctrl K + c > comment statements
